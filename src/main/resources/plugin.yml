@@ -1,0 +1,14 @@
+name: Dragonfire
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: A medieval dragon-themed Paper plugin.
+commands:
+  dragon:
+    description: Grants dragon powers and a dragon egg.
+    usage: /dragon <egg|fire|help>
+    aliases: [drake]
+permissions:
+  dragon.use:
+    description: Allows the use of dragon powers.
+    default: true
